@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <phpunit bootstrap="system/Test/bootstrap.php"
+=======
+<phpunit bootstrap="vendor/codeigniter4/framework/system/Test/bootstrap.php"
+>>>>>>> df3fea4917a300414f062e43420095d5216b10d6
 		backupGlobals="false"
 		colors="true"
 		convertErrorsToExceptions="true"

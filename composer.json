@@ -1,11 +1,18 @@
 {
+<<<<<<< HEAD
 	"name": "codeigniter4/framework",
 	"type": "project",
 	"description": "The CodeIgniter framework v4",
+=======
+	"name": "codeigniter4/appstarter",
+	"type": "project",
+	"description": "CodeIgniter4 starter app",
+>>>>>>> df3fea4917a300414f062e43420095d5216b10d6
 	"homepage": "https://codeigniter.com",
 	"license": "MIT",
 	"require": {
 		"php": ">=7.2",
+<<<<<<< HEAD
 		"ext-curl": "*",
 		"ext-intl": "*",
 		"ext-json": "*",
@@ -25,12 +32,28 @@
 	"autoload": {
 		"psr-4": {
 			"CodeIgniter\\": "system/"
+=======
+		"codeigniter4/framework": "^4"
+	},
+	"require-dev": {
+		"fzaninotto/faker": "^1.9@dev",
+		"mikey179/vfsstream": "1.6.*",
+		"phpunit/phpunit": "^8.5"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\Support\\": "tests/_support"
+>>>>>>> df3fea4917a300414f062e43420095d5216b10d6
 		}
 	},
 	"scripts": {
 		"post-update-cmd": [
+<<<<<<< HEAD
 			"@composer dump-autoload",
 			"CodeIgniter\\ComposerScripts::postUpdate"
+=======
+			"@composer dump-autoload"
+>>>>>>> df3fea4917a300414f062e43420095d5216b10d6
 		],
 		"test": "phpunit"
 	},
