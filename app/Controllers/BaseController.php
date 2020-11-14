@@ -1,8 +1,4 @@
 <?php
-<<<<<<< HEAD
-
-=======
->>>>>>> df3fea4917a300414f062e43420095d5216b10d6
 namespace App\Controllers;
 
 /**
@@ -47,8 +43,4 @@ class BaseController extends Controller
 		// $this->session = \Config\Services::session();
 		$this->name = "variable global";
 	}
-<<<<<<< HEAD
-=======
-
->>>>>>> df3fea4917a300414f062e43420095d5216b10d6
 }
