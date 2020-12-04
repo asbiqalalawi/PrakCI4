@@ -1,4 +1,6 @@
-<?php namespace Config;
+<?php
+
+namespace Config;
 
 /**
  * Holds the paths that are used by the system to
@@ -11,7 +13,7 @@
 
 class Paths
 {
-	/*
+    /*
 	 *---------------------------------------------------------------
 	 * SYSTEM FOLDER NAME
 	 *---------------------------------------------------------------
@@ -20,13 +22,9 @@ class Paths
 	 * Include the path if the folder is not in the same directory
 	 * as this file.
 	 */
-<<<<<<< HEAD
-	public $systemDirectory = __DIR__ . '/../../system';
-=======
-	public $systemDirectory = __DIR__ . '/../../vendor/codeigniter4/framework/system';
->>>>>>> df3fea4917a300414f062e43420095d5216b10d6
+    public $systemDirectory = __DIR__ . '/../../system';
 
-	/*
+    /*
 	 *---------------------------------------------------------------
 	 * APPLICATION FOLDER NAME
 	 *---------------------------------------------------------------
@@ -39,9 +37,9 @@ class Paths
 	 *
 	 * NO TRAILING SLASH!
 	 */
-	public $appDirectory = __DIR__ . '/..';
+    public $appDirectory = __DIR__ . '/..';
 
-	/*
+    /*
 	 * ---------------------------------------------------------------
 	 * WRITABLE DIRECTORY NAME
 	 * ---------------------------------------------------------------
@@ -52,25 +50,18 @@ class Paths
 	 * for maximum security, keeping it out of the app and/or
 	 * system directories.
 	 */
-	public $writableDirectory = __DIR__ . '/../../writable';
+    public $writableDirectory = __DIR__ . '/../../writable';
 
-	/*
+    /*
 	 * ---------------------------------------------------------------
 	 * TESTS DIRECTORY NAME
 	 * ---------------------------------------------------------------
 	 *
 	 * This variable must contain the name of your "tests" directory.
-<<<<<<< HEAD
-=======
-	 * The writable directory allows you to group all directories that
-	 * need write permission to a single place that can be tucked away
-	 * for maximum security, keeping it out of the app and/or
-	 * system directories.
->>>>>>> df3fea4917a300414f062e43420095d5216b10d6
 	 */
-	public $testsDirectory = __DIR__ . '/../../tests';
+    public $testsDirectory = __DIR__ . '/../../tests';
 
-	/*
+    /*
 	 * ---------------------------------------------------------------
 	 * VIEW DIRECTORY NAME
 	 * ---------------------------------------------------------------
@@ -80,5 +71,5 @@ class Paths
 	 * default this is in `app/Views`. This value
 	 * is used when no value is provided to `Services::renderer()`.
 	 */
-	public $viewDirectory = __DIR__ . '/../Views';
+    public $viewDirectory = __DIR__ . '/../Views';
 }
